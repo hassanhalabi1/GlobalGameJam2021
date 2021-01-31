@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2872202291",
+    "GUID": "{AB325433-5433-1433-3333-333333333333}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4607D66BC05E4E8E9916ED723720C071",
+    "ShortName": "SB_4607D66BC05E4E8E9916ED723720C071",
+    "Path": "SB_4607D66BC05E4E8E9916ED723720C071.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3923737332",
+      "Name": "Play_Hide_Open_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hide_Open_RND",
+      "GUID": "{4607D66B-C05E-4E8E-9916-ED723720C071}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.394604",
+      "DurationMax": "4.660000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "49019219",
+        "Language": "SFX",
+        "ShortName": "OS_Hide_Open_02.wav",
+        "Path": "SFX\\OS_Hide_Open_02_10C4C929.wem"
+       },
+       {
+        "Id": "198244868",
+        "Language": "SFX",
+        "ShortName": "OS_Hide_Open_04.wav",
+        "Path": "SFX\\OS_Hide_Open_04_10C4C929.wem"
+       },
+       {
+        "Id": "945009048",
+        "Language": "SFX",
+        "ShortName": "OS_Hide_Open_03.wav",
+        "Path": "SFX\\OS_Hide_Open_03_10C4C929.wem"
+       },
+       {
+        "Id": "966135664",
+        "Language": "SFX",
+        "ShortName": "OS_Hide_Open_01.wav",
+        "Path": "SFX\\OS_Hide_Open_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

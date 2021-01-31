@@ -1,0 +1,36 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	979416976	RUN_WALK			\Default Work Unit\RUN_WALK	
+	1088209313	Floor			\Default Work Unit\Floor	
+	1276632493	Textures			\Default Work Unit\Textures	
+	4174463524	Danger			\Default Work Unit\Danger	
+
+State	ID	Name	State Group			Notes
+	712161704	Run	RUN_WALK			
+	748895195	None	RUN_WALK			
+	2108779966	Walk	RUN_WALK			
+	748895195	None	Floor			
+	997381354	RDC	Floor			
+	2668588619	Etage	Floor			
+	748895195	None	Textures			
+	1127618254	Marble	Textures			
+	2058049674	Wood	Textures			
+	748895195	None	Danger			
+	1133794587	Near	Danger			
+	1182670505	Mid	Danger			
+	1588909714	Very_Away	Danger			
+	3003738345	Not_Close	Danger			
+	3552757243	Away	Danger			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

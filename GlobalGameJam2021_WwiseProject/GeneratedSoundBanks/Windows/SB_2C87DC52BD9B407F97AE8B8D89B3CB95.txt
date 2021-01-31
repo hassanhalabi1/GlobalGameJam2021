@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1363745605	Play_Breath_RND			\Default Work Unit\Play_Breath_RND	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+

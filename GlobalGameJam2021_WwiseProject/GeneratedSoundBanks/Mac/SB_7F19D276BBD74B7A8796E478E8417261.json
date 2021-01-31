@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3538565326",
+    "GUID": "{D2EA38CE-38CE-18CE-CECE-CECECECECECE}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7F19D276BBD74B7A8796E478E8417261",
+    "ShortName": "SB_7F19D276BBD74B7A8796E478E8417261",
+    "Path": "SB_7F19D276BBD74B7A8796E478E8417261.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3590645868",
+      "Name": "Play_Alight_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Alight_RND",
+      "GUID": "{7F19D276-BBD7-4B7A-8796-E478E8417261}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.560500",
+      "DurationMax": "1.659979",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "652532384",
+        "Language": "SFX",
+        "ShortName": "OS_Flame_Candle_Alight_01.wav",
+        "Path": "SFX\\OS_Flame_Candle_Alight_01_10C4C929.wem"
+       },
+       {
+        "Id": "1047696192",
+        "Language": "SFX",
+        "ShortName": "OS_Flame_Candle_Alight_02.wav",
+        "Path": "SFX\\OS_Flame_Candle_Alight_02_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

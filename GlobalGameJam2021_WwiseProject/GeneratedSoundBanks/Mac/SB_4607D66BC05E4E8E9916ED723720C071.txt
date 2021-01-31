@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3923737332	Play_Hide_Open_RND			\Default Work Unit\Play_Hide_Open_RND	
+

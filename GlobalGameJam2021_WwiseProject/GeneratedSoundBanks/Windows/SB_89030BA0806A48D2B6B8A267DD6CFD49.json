@@ -1,0 +1,92 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2190522867",
+    "GUID": "{8290B9F3-B9F3-19F3-F3F3-F3F3F3F3F3F3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_89030BA0806A48D2B6B8A267DD6CFD49",
+    "ShortName": "SB_89030BA0806A48D2B6B8A267DD6CFD49",
+    "Path": "SB_89030BA0806A48D2B6B8A267DD6CFD49.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3739653696",
+      "Name": "Play_Tension_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Tension_Music",
+      "GUID": "{89030BA0-806A-48D2-B6B8-A267DD6CFD49}",
+      "DurationType": "OneShot",
+      "DurationMin": "560.967285",
+      "DurationMax": "570.967285",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "27754977",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v7.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v7_10C4C929.wem"
+       },
+       {
+        "Id": "64870057",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v1.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v1_10C4C929.wem"
+       },
+       {
+        "Id": "808144072",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v5.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v5_10C4C929.wem"
+       },
+       {
+        "Id": "856322227",
+        "Language": "SFX",
+        "ShortName": "OS_Drone_02.wav",
+        "Path": "SFX\\OS_Drone_02_10C4C929.wem"
+       },
+       {
+        "Id": "892631991",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v4.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v4_10C4C929.wem"
+       },
+       {
+        "Id": "903144959",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v2.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v2_54AAC62D.wem"
+       },
+       {
+        "Id": "941803038",
+        "Language": "SFX",
+        "ShortName": "OS_Drone_01.wav",
+        "Path": "SFX\\OS_Drone_01_10C4C929.wem"
+       },
+       {
+        "Id": "945784596",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v3.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v3_10C4C929.wem"
+       },
+       {
+        "Id": "991442104",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v6.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v6_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

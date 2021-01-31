@@ -1,0 +1,64 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1281386695",
+    "GUID": "{4C6068C7-68C7-18C7-C7C7-C7C7C7C7C7C7}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_70E196768A9C4054B21109EC5A1B87D2",
+    "ShortName": "SB_70E196768A9C4054B21109EC5A1B87D2",
+    "Path": "SB_70E196768A9C4054B21109EC5A1B87D2.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "746699325",
+      "Name": "Play_Lamp_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lamp_RND",
+      "GUID": "{70E19676-8A9C-4054-B211-09EC5A1B87D2}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.876439",
+      "DurationMax": "6.276234",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "466416472",
+        "Language": "SFX",
+        "ShortName": "OS_Lamp_Flickering_01.wav",
+        "Path": "SFX\\OS_Lamp_Flickering_01_02823523.wem"
+       },
+       {
+        "Id": "817115107",
+        "Language": "SFX",
+        "ShortName": "OS_Lamp_Flickering_02.wav",
+        "Path": "SFX\\OS_Lamp_Flickering_02_10C4C929.wem"
+       },
+       {
+        "Id": "1020244548",
+        "Language": "SFX",
+        "ShortName": "OS_Lamp_Flickering_03.wav",
+        "Path": "SFX\\OS_Lamp_Flickering_03_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{F260A097-C6A3-4AD8-8342-E68DC791C60C}"
+     }
+    ]
+   }
+  ]
+ }
+}

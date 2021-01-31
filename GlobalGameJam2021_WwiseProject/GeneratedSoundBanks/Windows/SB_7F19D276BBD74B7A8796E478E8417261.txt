@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3590645868	Play_Alight_RND			\Default Work Unit\Play_Alight_RND	
+

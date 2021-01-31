@@ -1,0 +1,110 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3901799049",
+    "GUID": "{E890BA89-BA89-1A89-8989-898989898989}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E4897F9DA56A4A658DB5B9E52CC278FB",
+    "ShortName": "SB_E4897F9DA56A4A658DB5B9E52CC278FB",
+    "Path": "SB_E4897F9DA56A4A658DB5B9E52CC278FB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1585925708",
+      "Name": "Play_Rain_Thunder_BLD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Rain_Thunder_BLD",
+      "GUID": "{E4897F9D-A56A-4A65-8DB5-B9E52CC278FB}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "138602187",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Soft_03.wav",
+        "Path": "SFX\\OS_Thunder_Soft_03_10C4C929.wem"
+       },
+       {
+        "Id": "144487041",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Strong_02.wav",
+        "Path": "SFX\\OS_Thunder_Strong_02_10C4C929.wem"
+       },
+       {
+        "Id": "188328337",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Strong_03.wav",
+        "Path": "SFX\\OS_Thunder_Strong_03_10C4C929.wem"
+       },
+       {
+        "Id": "348965021",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Soft_04.wav",
+        "Path": "SFX\\OS_Thunder_Soft_04_10C4C929.wem"
+       },
+       {
+        "Id": "487698499",
+        "Language": "SFX",
+        "ShortName": "LP_Wind_Outdoor_01.wav",
+        "Path": "SFX\\LP_Wind_Outdoor_01_10C4C929.wem"
+       },
+       {
+        "Id": "669096479",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Soft_02.wav",
+        "Path": "SFX\\OS_Thunder_Soft_02_10C4C929.wem"
+       },
+       {
+        "Id": "715951350",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Moderate_01.wav",
+        "Path": "SFX\\OS_Thunder_Moderate_01_10C4C929.wem"
+       },
+       {
+        "Id": "759398833",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Moderate_02.wav",
+        "Path": "SFX\\OS_Thunder_Moderate_02_10C4C929.wem"
+       },
+       {
+        "Id": "795882821",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Strong_01.wav",
+        "Path": "SFX\\OS_Thunder_Strong_01_10C4C929.wem"
+       },
+       {
+        "Id": "921764221",
+        "Language": "SFX",
+        "ShortName": "OS_Thunder_Soft_01.wav",
+        "Path": "SFX\\OS_Thunder_Soft_01_10C4C929.wem"
+       },
+       {
+        "Id": "1072786912",
+        "Language": "SFX",
+        "ShortName": "LP_Rain_strong_01.wav",
+        "Path": "SFX\\LP_Rain_strong_01_D79FB2B7.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1253530511",
+      "Name": "Distance_window",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance_window",
+      "GUID": "{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}"
+     }
+    ]
+   }
+  ]
+ }
+}

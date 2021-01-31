@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2870827772	Play_Indoor_BLD			\Default Work Unit\Play_Indoor_BLD	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1088209313	Floor			\Default Work Unit\Floor	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Floor			
+	997381354	RDC	Floor			
+	2668588619	Etage	Floor			
+

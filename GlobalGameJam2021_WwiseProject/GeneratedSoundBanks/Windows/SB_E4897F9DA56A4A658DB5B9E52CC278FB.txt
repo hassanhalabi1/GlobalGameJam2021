@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1585925708	Play_Rain_Thunder_BLD			\Default Work Unit\Play_Rain_Thunder_BLD	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1253530511	Distance_window			\Default Work Unit\Distance_window	
+

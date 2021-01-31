@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3861781208",
+    "GUID": "{E62E1AD8-1AD8-1AD8-D8D8-D8D8D8D8D8D8}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7D0921D25E3D420E986805BBD2CF481B",
+    "ShortName": "SB_7D0921D25E3D420E986805BBD2CF481B",
+    "Path": "SB_7D0921D25E3D420E986805BBD2CF481B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1684247447",
+      "Name": "Play_Bottle_Wood_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bottle_Wood_RND",
+      "GUID": "{7D0921D2-5E3D-420E-9868-05BBD2CF481B}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.322893",
+      "DurationMax": "2.412862",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "93698392",
+        "Language": "SFX",
+        "ShortName": "OS_Bottle_WoodFloor_02.wav",
+        "Path": "SFX\\OS_Bottle_WoodFloor_02_A7483563.wem"
+       },
+       {
+        "Id": "257531089",
+        "Language": "SFX",
+        "ShortName": "OS_Bottle_WoodFloor_04.wav",
+        "Path": "SFX\\OS_Bottle_WoodFloor_04_10C4C929.wem"
+       },
+       {
+        "Id": "635281103",
+        "Language": "SFX",
+        "ShortName": "OS_Bottle_WoodFloor_03.wav",
+        "Path": "SFX\\OS_Bottle_WoodFloor_03_10C4C929.wem"
+       },
+       {
+        "Id": "929311004",
+        "Language": "SFX",
+        "ShortName": "OS_Bottle_WoodFloor_01.wav",
+        "Path": "SFX\\OS_Bottle_WoodFloor_01_0859CB63.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
