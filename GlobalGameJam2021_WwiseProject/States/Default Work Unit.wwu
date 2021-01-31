@@ -32,6 +32,42 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Danger" ID="{E277D3B0-79FE-4361-B089-65C2A32B64E6}">
+					<ChildrenList>
+						<State Name="None" ID="{32C0F4B2-8952-4BC6-8648-4035923FCB8A}"/>
+						<State Name="Near" ID="{9DB8BA9F-3B5A-4AC5-943E-2D62FEAE44A8}"/>
+						<State Name="Mid" ID="{34AF5F48-DAF3-4794-8388-602DCA92D4CD}"/>
+						<State Name="Away" ID="{44A9BE99-66F3-4212-A143-3EEC322FEA0C}"/>
+						<State Name="Very_Away" ID="{A920C88A-245B-4F53-99BB-A3BB171D587D}"/>
+						<State Name="Not_Close" ID="{BF61562C-9DD4-4F07-BD25-4E9D597807DA}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Not_Close" ID="{BF61562C-9DD4-4F07-BD25-4E9D597807DA}"/>
+							<EndState Name="Very_Away" ID="{A920C88A-245B-4F53-99BB-A3BB171D587D}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Very_Away" ID="{A920C88A-245B-4F53-99BB-A3BB171D587D}"/>
+							<EndState Name="Away" ID="{44A9BE99-66F3-4212-A143-3EEC322FEA0C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Away" ID="{44A9BE99-66F3-4212-A143-3EEC322FEA0C}"/>
+							<EndState Name="Mid" ID="{34AF5F48-DAF3-4794-8388-602DCA92D4CD}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Mid" ID="{34AF5F48-DAF3-4794-8388-602DCA92D4CD}"/>
+							<EndState Name="Near" ID="{9DB8BA9F-3B5A-4AC5-943E-2D62FEAE44A8}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -8,9 +8,16 @@
 						<Property Name="Max" Type="Real64" Value="50"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="Mental_Health" ID="{8165BE59-307F-404E-813A-41D674F2F655}">
+				<GameParameter Name="Monster_Distance" ID="{F7B1EF70-8700-4487-994B-266C73967A15}"/>
+				<GameParameter Name="MentalHealth_Status" ID="{858EAC36-E8DF-4858-9EC6-9BF89457D164}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

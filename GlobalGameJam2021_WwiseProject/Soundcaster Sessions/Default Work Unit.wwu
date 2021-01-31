@@ -6,24 +6,113 @@
 				<SoundcasterSession Name="Global" ID="{AEFCFA27-77AB-4BA1-BB3B-71FBB6133633}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Tension_Music" ID="{89030BA0-806A-48D2-B6B8-A267DD6CFD49}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<ObjectRef Name="Play_Music_Menu" ID="{081A7BF8-8281-4495-A56A-9BB82EE9EC54}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Tension_Music" ID="{89030BA0-806A-48D2-B6B8-A267DD6CFD49}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Key_BLD" ID="{35BF8277-4E38-41B0-94A2-57B55B2FAF6F}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lamp_RND" ID="{70E19676-8A9C-4054-B211-09EC5A1B87D2}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Hide_Open_RND" ID="{4607D66B-C05E-4E8E-9916-ED723720C071}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PlayMenu" ID="{E386F373-9A12-4938-B165-FEA1AEDB7924}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Indoor_BLD" ID="{BCE49805-4F5D-4DE4-B5D9-12EEF4DF56AC}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OpenDoor_Metal_SQC" ID="{1E60AC51-5DA5-424B-B5D2-4ACB9311EE79}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_CloseDoor_Metal_RND" ID="{292EB56E-B5BA-4F4B-906B-84FC8D6EDD03}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Hide_Close_RND" ID="{E0FA9AF4-7182-478F-87DA-566466362DD1}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Quit" ID="{2BFCABD2-2776-41BF-984F-A12B444BF37E}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Rain_Thunder_BLD" ID="{E4897F9D-A56A-4A65-8DB5-B9E52CC278FB}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Bottle_Wood_RND" ID="{7D0921D2-5E3D-420E-9868-05BBD2CF481B}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Extinguish_RND" ID="{51B55FE8-A15A-4A2C-9600-25CD95A67882}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Alight_RND" ID="{7F19D276-BBD7-4B7A-8796-E478E8417261}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Over" ID="{868AE386-1A26-406C-A285-9AD678A87401}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Death_Music_SQ" ID="{6F2CE826-0F08-42E8-A856-C975FFBAB5ED}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Breath_RND" ID="{2C87DC52-BD9B-407F-97AE-8B8D89B3CB95}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Monster_FTPS_Switch" ID="{5B59D4D5-28BB-466D-9EFC-4557CC926F8C}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_FTPS_RUN_WALK_SWITCH" ID="{A382A713-40E9-4F3F-9081-13DBF80077F3}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Start_Sentence_SFX" ID="{2CFE2F8E-5A64-4072-8E8B-FE97A91555FD}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="5" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="Mental_Health" ID="{8165BE59-307F-404E-813A-41D674F2F655}"/>
-							<Value>0</Value>
+							<GameParameterRef Name="Monster_Distance" ID="{F7B1EF70-8700-4487-994B-266C73967A15}"/>
+							<Value>70.686</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}"/>
+							<Value>1.24347957217781E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MentalHealth_Status" ID="{858EAC36-E8DF-4858-9EC6-9BF89457D164}"/>
+							<Value>0.105708245243143</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}"/>
-							<Value>0</Value>
+							<Value>48.4</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Near" ID="{9DB8BA9F-3B5A-4AC5-943E-2D62FEAE44A8}"/>
 						<CurrentStateRef Name="Wood" ID="{C1EB4057-AF93-418F-9E62-76F403124C70}"/>
-						<CurrentStateRef Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}"/>
-						<CurrentStateRef Name="Etage" ID="{6C6A75FD-6FF3-4399-951B-507CD09E3CB8}"/>
+						<CurrentStateRef Name="None" ID="{EDA0EC73-B076-4077-8FF6-F783557828E0}"/>
+						<CurrentStateRef Name="None" ID="{5C5E1325-5510-4882-8570-FF5BA767B370}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

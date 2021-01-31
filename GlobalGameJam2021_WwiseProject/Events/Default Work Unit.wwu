@@ -4,11 +4,384 @@
 		<WorkUnit Name="Default Work Unit" ID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Play_Tension_Music" ID="{89030BA0-806A-48D2-B6B8-A267DD6CFD49}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{470F1E4C-CFE7-4856-A8EA-E6FD0DF9DAEA}" ShortID="1072167908">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Tension_Drone_Music" ID="{D3E0C57E-F14E-4198-B663-DF8B44C37805}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlayMenu" ID="{E386F373-9A12-4938-B165-FEA1AEDB7924}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{1BCFAA79-3546-45B3-8EFA-6F2E7F60568D}" ShortID="54618728">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Volume" Type="Real64" Value="-96"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musique_play_jam" ID="{1FD33377-53E9-45E8-BA6C-CAA6791D4507}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CE805F73-5933-492C-97A8-DA9FC34EAF0C}" ShortID="546580267">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play" ID="{707629FC-C9FF-49EC-B472-46D6101036B4}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Death_Music_SQ" ID="{6F2CE826-0F08-42E8-A856-C975FFBAB5ED}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{95E2A70E-15AC-4254-AE2C-8FDAA56A3295}" ShortID="948789189">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death_Music_SQ" ID="{CE337A7E-7056-4B6E-B7EE-561B5A1A2899}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CECF05D8-9095-4263-963A-93972814E889}" ShortID="724419373">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musique_play_jam" ID="{73EF95C5-FC6E-4B07-AE7C-5E1B976157D6}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Menu" ID="{081A7BF8-8281-4495-A56A-9BB82EE9EC54}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D591F32A-292B-4D9B-A1F1-AFE75EF722D8}" ShortID="550327303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musique_play_jam" ID="{1FD33377-53E9-45E8-BA6C-CAA6791D4507}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Indoor_BLD" ID="{BCE49805-4F5D-4DE4-B5D9-12EEF4DF56AC}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{2FB43C62-A76C-4384-83D5-34BB8698E724}" ShortID="405661411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Indoor_BLD" ID="{20204DE5-FF4E-4EB0-B833-44231C1A1AFF}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rain_Thunder_BLD" ID="{E4897F9D-A56A-4A65-8DB5-B9E52CC278FB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{54D8CA0E-4FD0-4B3A-BE6B-21823656139A}" ShortID="254357417">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain_Thunder_BLD" ID="{7B9B77D2-7F57-419F-9EDC-2B85869E5619}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bottle_Wood_RND" ID="{7D0921D2-5E3D-420E-9868-05BBD2CF481B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{DD1460D7-2BF7-4ACC-93FB-A630F1A570E8}" ShortID="1054961349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bottle_Wood_RND" ID="{B082DF6E-A14A-4DA4-AAA5-700A416A49DB}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Alight_RND" ID="{7F19D276-BBD7-4B7A-8796-E478E8417261}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{5FD25046-961A-41CE-A48D-5B916946A595}" ShortID="918503215">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alight_RND" ID="{3314C913-C90A-4276-9979-09424E6E1194}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Extinguish_RND" ID="{51B55FE8-A15A-4A2C-9600-25CD95A67882}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8943500A-B1F7-43FB-84A2-86CF9785DE00}" ShortID="102011244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Extinguish_RND" ID="{B3EA63CA-9A13-42F7-B8CB-F4682EC37CF1}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CloseDoor_Metal_RND" ID="{292EB56E-B5BA-4F4B-906B-84FC8D6EDD03}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{DCD4BCA5-3E42-41C5-8E71-EB056C520BF8}" ShortID="625238356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CloseDoor_Metal_RND" ID="{DC9EDBF2-5CEB-45C4-A1E4-BE498FBDF79C}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OpenDoor_Metal_SQC" ID="{1E60AC51-5DA5-424B-B5D2-4ACB9311EE79}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{90144E00-357E-478D-8CA3-A8C4E42152DF}" ShortID="693280019">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenDoor_Metal_SQC" ID="{91134D61-2E81-42CC-A4C3-4F3EB6191D1A}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hide_Close_RND" ID="{E0FA9AF4-7182-478F-87DA-566466362DD1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4C3C0698-4AEA-4690-A59F-AE2D46F23369}" ShortID="192174005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hide_Close_RND" ID="{F7777981-742E-436D-ADF7-8513C45BE54F}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hide_Open_RND" ID="{4607D66B-C05E-4E8E-9916-ED723720C071}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{41F31C1F-BBD5-4014-BB0A-734D603771E2}" ShortID="256768257">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hide_Open_RND" ID="{D769EC25-61BD-4047-9820-DA00FB8AE0EC}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Key_BLD" ID="{35BF8277-4E38-41B0-94A2-57B55B2FAF6F}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{7252FD0C-0A11-420E-9983-640D59A47CD5}" ShortID="874324111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Key_BLD" ID="{C582E96E-588D-40D7-9DD2-57EF49B786C5}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lamp_RND" ID="{70E19676-8A9C-4054-B211-09EC5A1B87D2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D48E77B2-20E1-4FD7-9298-8EFECFDCEF72}" ShortID="764354116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lamp_RND" ID="{B692BC15-BB5F-429B-933A-6B4C2368D04F}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Breath_RND" ID="{2C87DC52-BD9B-407F-97AE-8B8D89B3CB95}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F3E1FC19-0742-4FC5-8E9D-5ADDB7A5F9D8}" ShortID="559987004">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breath_RND" ID="{EAD8C956-2276-4D0E-84F0-8BB9B47319F4}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Monster_FTPS_Switch" ID="{5B59D4D5-28BB-466D-9EFC-4557CC926F8C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{44E0DDF0-309F-43C2-B178-2AA4A67B6F04}" ShortID="994336065">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Monster_FTPS_Switch" ID="{8F0DD48C-785F-455F-8914-D2D720389E31}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FTPS_RUN_WALK_SWITCH" ID="{A382A713-40E9-4F3F-9081-13DBF80077F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{00FCED9D-FDE7-4824-BF24-EF00C1CAA271}" ShortID="814193662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FTPS_RUN_WALK_SWITCH" ID="{D1A68472-2AB5-49F3-BD90-3F64C9524FE6}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CloseDoor_Wood_RND" ID="{925D51A1-40CA-4A67-A5EF-30980E295310}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3756207D-161B-47FA-964B-4CCEA3063D13}" ShortID="299408268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CloseDoor_Wood_RND" ID="{2D353B98-493F-432F-9831-F0876BE63E9C}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OpenDoor_Wood_SQC" ID="{BA4983AB-77D7-4178-8CF9-B7B242EF87C9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F43A8340-78A9-4F72-B0A4-2CB09A505D18}" ShortID="392102056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenDoor_Wood_SQC" ID="{997B51FB-79B3-4B4D-B7F8-38A5FB02749F}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Over" ID="{868AE386-1A26-406C-A285-9AD678A87401}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{18D31675-7428-49D6-BC3F-EA87108CE59A}" ShortID="7422941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Over" ID="{CC5FEE88-72DB-4C93-AA36-F70DA64C09D7}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Quit" ID="{2BFCABD2-2776-41BF-984F-A12B444BF37E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{E525F7E9-7268-42C4-B4D3-FE5C57E3101F}" ShortID="1056538072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Quit" ID="{D280D47F-B42B-41AB-80C7-CC90BDA21711}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3AC37B31-3DE4-4018-8B6B-4988D48F9188}" ShortID="298072519">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="musique_play_jam" ID="{1FD33377-53E9-45E8-BA6C-CAA6791D4507}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D280AD73-272F-4532-A566-F57C1664D314}" ShortID="614470499">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Start_Sentence_SFX" ID="{2CFE2F8E-5A64-4072-8E8B-FE97A91555FD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{27361223-E006-41E8-9BEF-1C0EC85A8CF5}" ShortID="808150514">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start_Sentence_SFX" ID="{43302544-8939-4AC4-AC3A-51C068E6646C}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

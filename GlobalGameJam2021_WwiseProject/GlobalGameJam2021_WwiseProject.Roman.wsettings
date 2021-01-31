@@ -3,7 +3,29 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{61FE7F0B-BDBC-42C2-B8C4-BA984F1E064B}">
 			<PropertyList>
+				<Property Name="Event Action List\{081A7BF8-8281-4495-A56A-9BB82EE9EC54}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1E60AC51-5DA5-424B-B5D2-4ACB9311EE79}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{292EB56E-B5BA-4F4B-906B-84FC8D6EDD03}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2BFCABD2-2776-41BF-984F-A12B444BF37E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2C87DC52-BD9B-407F-97AE-8B8D89B3CB95}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2CFE2F8E-5A64-4072-8E8B-FE97A91555FD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{35BF8277-4E38-41B0-94A2-57B55B2FAF6F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4607D66B-C05E-4E8E-9916-ED723720C071}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{51B55FE8-A15A-4A2C-9600-25CD95A67882}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5B59D4D5-28BB-466D-9EFC-4557CC926F8C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6F2CE826-0F08-42E8-A856-C975FFBAB5ED}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{70E19676-8A9C-4054-B211-09EC5A1B87D2}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7D0921D2-5E3D-420E-9868-05BBD2CF481B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7F19D276-BBD7-4B7A-8796-E478E8417261}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{868AE386-1A26-406C-A285-9AD678A87401}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{89030BA0-806A-48D2-B6B8-A267DD6CFD49}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{925D51A1-40CA-4A67-A5EF-30980E295310}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A382A713-40E9-4F3F-9081-13DBF80077F3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BA4983AB-77D7-4178-8CF9-B7B242EF87C9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BCE49805-4F5D-4DE4-B5D9-12EEF4DF56AC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E0FA9AF4-7182-478F-87DA-566466362DD1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E386F373-9A12-4938-B165-FEA1AEDB7924}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E4897F9D-A56A-4A65-8DB5-B9E52CC278FB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FB3B016B-6D76-4756-96DB-EDE0A8402451}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -21,6 +43,9 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="0Q8FVDOq2EqXIpR0JNS59QGE9W7/////eNXeT9v5pkOYuCALegCbzwGE9W7/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
