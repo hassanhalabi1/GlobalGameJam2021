@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1413608191",
+    "GUID": "{5441F2FF-F2FF-12FF-FFFF-FFFFFFFFFFFF}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E0FA9AF47182478F87DA566466362DD1",
+    "ShortName": "SB_E0FA9AF47182478F87DA566466362DD1",
+    "Path": "SB_E0FA9AF47182478F87DA566466362DD1.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2753446454",
+      "Name": "Play_Hide_Close_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hide_Close_RND",
+      "GUID": "{E0FA9AF4-7182-478F-87DA-566466362DD1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.434375",
+      "DurationMax": "2.385604",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "416078708",
+        "Language": "SFX",
+        "ShortName": "OS_Hide_Close_01.wav",
+        "Path": "SFX\\OS_Hide_Close_01_10C4C929.wem"
+       },
+       {
+        "Id": "695488657",
+        "Language": "SFX",
+        "ShortName": "OS_Hide_Close_02.wav",
+        "Path": "SFX\\OS_Hide_Close_02_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

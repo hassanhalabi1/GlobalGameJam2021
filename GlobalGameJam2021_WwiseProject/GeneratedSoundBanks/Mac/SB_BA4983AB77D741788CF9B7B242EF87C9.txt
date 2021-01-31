@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2307006512	Play_OpenDoor_Wood_SQC			\Default Work Unit\Play_OpenDoor_Wood_SQC	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+

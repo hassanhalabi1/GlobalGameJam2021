@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "962086455",
+    "GUID": "{39584637-4637-1637-3737-373737373737}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_292EB56EB5BA4F4B906B84FC8D6EDD03",
+    "ShortName": "SB_292EB56EB5BA4F4B906B84FC8D6EDD03",
+    "Path": "SB_292EB56EB5BA4F4B906B84FC8D6EDD03.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "587194667",
+      "Name": "Play_CloseDoor_Metal_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CloseDoor_Metal_RND",
+      "GUID": "{292EB56E-B5BA-4F4B-906B-84FC8D6EDD03}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.810500",
+      "DurationMax": "3.658271",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "258268671",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_DOORCLOSE02.wav",
+        "Path": "SFX\\OS_METAL_DOORCLOSE02_10C4C929.wem"
+       },
+       {
+        "Id": "654108265",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_DOORCLOSE03.wav",
+        "Path": "SFX\\OS_METAL_DOORCLOSE03_10C4C929.wem"
+       },
+       {
+        "Id": "817317251",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_DOORCLOSE01.wav",
+        "Path": "SFX\\OS_METAL_DOORCLOSE01_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{F260A097-C6A3-4AD8-8342-E68DC791C60C}"
+     }
+    ]
+   }
+  ]
+ }
+}

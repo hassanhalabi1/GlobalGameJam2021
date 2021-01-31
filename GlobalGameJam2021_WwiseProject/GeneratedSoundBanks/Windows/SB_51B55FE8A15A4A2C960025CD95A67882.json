@@ -1,0 +1,70 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "172729609",
+    "GUID": "{0A4BA509-A509-1509-0909-090909090909}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_51B55FE8A15A4A2C960025CD95A67882",
+    "ShortName": "SB_51B55FE8A15A4A2C960025CD95A67882",
+    "Path": "SB_51B55FE8A15A4A2C960025CD95A67882.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2915380007",
+      "Name": "Play_Extinguish_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Extinguish_RND",
+      "GUID": "{51B55FE8-A15A-4A2C-9600-25CD95A67882}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.731083",
+      "DurationMax": "1.662333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "190745491",
+        "Language": "SFX",
+        "ShortName": "OS_Flame_Candle_Extinguished_01.wav",
+        "Path": "SFX\\OS_Flame_Candle_Extinguished_01_10C4C929.wem"
+       },
+       {
+        "Id": "562263339",
+        "Language": "SFX",
+        "ShortName": "OS_Flame_Candle_Extinguished_03.wav",
+        "Path": "SFX\\OS_Flame_Candle_Extinguished_03_10C4C929.wem"
+       },
+       {
+        "Id": "846316556",
+        "Language": "SFX",
+        "ShortName": "OS_Flame_Candle_Extinguished_02.wav",
+        "Path": "SFX\\OS_Flame_Candle_Extinguished_02_10C4C929.wem"
+       },
+       {
+        "Id": "921820447",
+        "Language": "SFX",
+        "ShortName": "OS_Flame_Candle_Extinguished_04.wav",
+        "Path": "SFX\\OS_Flame_Candle_Extinguished_04_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

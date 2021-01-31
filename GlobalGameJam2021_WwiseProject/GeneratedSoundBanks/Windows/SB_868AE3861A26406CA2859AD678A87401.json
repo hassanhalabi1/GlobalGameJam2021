@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "164783721",
+    "GUID": "{09D26669-6669-1669-6969-696969696969}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_868AE3861A26406CA2859AD678A87401",
+    "ShortName": "SB_868AE3861A26406CA2859AD678A87401",
+    "Path": "SB_868AE3861A26406CA2859AD678A87401.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2348692292",
+      "Name": "Play_Over",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Over",
+      "GUID": "{868AE386-1A26-406C-A285-9AD678A87401}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.176168",
+      "DurationMax": "0.176168",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "59243628",
+        "Language": "SFX",
+        "ShortName": "UI Hover.wav",
+        "Path": "SFX\\UI Hover_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

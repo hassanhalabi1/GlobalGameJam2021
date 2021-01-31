@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	746699325	Play_Lamp_RND			\Default Work Unit\Play_Lamp_RND	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+

@@ -1,0 +1,354 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "328908513",
+    "GUID": "{139ABEE1-BEE1-1EE1-E1E1-E1E1E1E1E1E1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_A382A71340E94F3F908113DBF80077F3",
+    "ShortName": "SB_A382A71340E94F3F908113DBF80077F3",
+    "Path": "SB_A382A71340E94F3F908113DBF80077F3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1659277262",
+      "Name": "Play_FTPS_RUN_WALK_SWITCH",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FTPS_RUN_WALK_SWITCH",
+      "GUID": "{A382A713-40E9-4F3F-9081-13DBF80077F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.272000",
+      "DurationMax": "1.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "79342075",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_WALK01.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_WALK01_10C4C929.wem"
+       },
+       {
+        "Id": "106242144",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_RUN01.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_RUN01_10C4C929.wem"
+       },
+       {
+        "Id": "143565956",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_WALK01.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_WALK01_10C4C929.wem"
+       },
+       {
+        "Id": "152606195",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_WALK04.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_WALK04_10C4C929.wem"
+       },
+       {
+        "Id": "288270142",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_RUN01.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_RUN01_10C4C929.wem"
+       },
+       {
+        "Id": "300465247",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_Random_WoodCreak02.wav",
+        "Path": "SFX\\OS_FTPS_Random_WoodCreak02_10C4C929.wem"
+       },
+       {
+        "Id": "372381694",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_RUN02.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_RUN02_10C4C929.wem"
+       },
+       {
+        "Id": "375127559",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_RUN05.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_RUN05_10C4C929.wem"
+       },
+       {
+        "Id": "430785345",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_WALK05.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_WALK05_10C4C929.wem"
+       },
+       {
+        "Id": "470912748",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_WALK05.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_WALK05_10C4C929.wem"
+       },
+       {
+        "Id": "499231639",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_WALK04.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_WALK04_10C4C929.wem"
+       },
+       {
+        "Id": "525488490",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_WALK03.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_WALK03_10C4C929.wem"
+       },
+       {
+        "Id": "531967558",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_RUN04.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_RUN04_10C4C929.wem"
+       },
+       {
+        "Id": "542382533",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_WALK02.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_WALK02_10C4C929.wem"
+       },
+       {
+        "Id": "555464065",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_RUN02.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_RUN02_10C4C929.wem"
+       },
+       {
+        "Id": "621839076",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_Random_WoodCreak03.wav",
+        "Path": "SFX\\OS_FTPS_Random_WoodCreak03_10C4C929.wem"
+       },
+       {
+        "Id": "695008690",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_WALK03.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_WALK03_10C4C929.wem"
+       },
+       {
+        "Id": "837103645",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_Random_WoodCreak01.wav",
+        "Path": "SFX\\OS_FTPS_Random_WoodCreak01_10C4C929.wem"
+       },
+       {
+        "Id": "866157197",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_WALK02.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_WALK02_10C4C929.wem"
+       },
+       {
+        "Id": "912437704",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_Random_WoodCreak04.wav",
+        "Path": "SFX\\OS_FTPS_Random_WoodCreak04_10C4C929.wem"
+       },
+       {
+        "Id": "961041183",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_RUN03.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_RUN03_10C4C929.wem"
+       },
+       {
+        "Id": "989094965",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_RUN04.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_RUN04_10C4C929.wem"
+       },
+       {
+        "Id": "1020558357",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_MARBLE_RUN03.wav",
+        "Path": "SFX\\OS_FTPS_MARBLE_RUN03_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{4E8625F5-E5E0-4678-921E-C58E496109ED}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{4E8625F5-E5E0-4678-921E-C58E496109ED}",
+        "DefaultSwitchValue": "{C1EB4057-AF93-418F-9E62-76F403124C70}",
+        "Children": [
+         {
+          "SwitchValue": "{608BD2DC-F228-42B8-95B0-132066B6F6B1}",
+          "Media": [
+           {
+            "Id": "143565956"
+           },
+           {
+            "Id": "866157197"
+           },
+           {
+            "Id": "525488490"
+           },
+           {
+            "Id": "499231639"
+           },
+           {
+            "Id": "430785345"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{C1EB4057-AF93-418F-9E62-76F403124C70}",
+          "Media": [
+           {
+            "Id": "837103645"
+           },
+           {
+            "Id": "300465247"
+           },
+           {
+            "Id": "621839076"
+           },
+           {
+            "Id": "912437704"
+           },
+           {
+            "Id": "79342075"
+           },
+           {
+            "Id": "542382533"
+           },
+           {
+            "Id": "695008690"
+           },
+           {
+            "Id": "152606195"
+           },
+           {
+            "Id": "470912748"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{1375B908-C36D-4720-9E11-2133C6795298}",
+        "DefaultSwitchValue": "{C1EB4057-AF93-418F-9E62-76F403124C70}",
+        "Children": [
+         {
+          "SwitchValue": "{608BD2DC-F228-42B8-95B0-132066B6F6B1}",
+          "Media": [
+           {
+            "Id": "288270142"
+           },
+           {
+            "Id": "372381694"
+           },
+           {
+            "Id": "1020558357"
+           },
+           {
+            "Id": "531967558"
+           },
+           {
+            "Id": "375127559"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{C1EB4057-AF93-418F-9E62-76F403124C70}",
+          "Media": [
+           {
+            "Id": "106242144"
+           },
+           {
+            "Id": "555464065"
+           },
+           {
+            "Id": "961041183"
+           },
+           {
+            "Id": "989094965"
+           },
+           {
+            "Id": "837103645"
+           },
+           {
+            "Id": "300465247"
+           },
+           {
+            "Id": "621839076"
+           },
+           {
+            "Id": "912437704"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "979416976",
+      "Name": "RUN_WALK",
+      "ObjectPath": "\\States\\Default Work Unit\\RUN_WALK",
+      "GUID": "{909AA460-744A-45DC-A0BB-9CD672ED7F61}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\RUN_WALK\\None",
+        "GUID": "{EDA0EC73-B076-4077-8FF6-F783557828E0}"
+       },
+       {
+        "Id": "712161704",
+        "Name": "Run",
+        "ObjectPath": "\\States\\Default Work Unit\\RUN_WALK\\Run",
+        "GUID": "{1375B908-C36D-4720-9E11-2133C6795298}"
+       },
+       {
+        "Id": "2108779966",
+        "Name": "Walk",
+        "ObjectPath": "\\States\\Default Work Unit\\RUN_WALK\\Walk",
+        "GUID": "{4E8625F5-E5E0-4678-921E-C58E496109ED}"
+       }
+      ]
+     },
+     {
+      "Id": "1276632493",
+      "Name": "Textures",
+      "ObjectPath": "\\States\\Default Work Unit\\Textures",
+      "GUID": "{1851688C-DD95-43A8-AF06-33D37807453A}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Textures\\None",
+        "GUID": "{AB22C8DA-91BE-4720-A11C-BFCBA1A95328}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\States\\Default Work Unit\\Textures\\Wood",
+        "GUID": "{C1EB4057-AF93-418F-9E62-76F403124C70}"
+       },
+       {
+        "Id": "1127618254",
+        "Name": "Marble",
+        "ObjectPath": "\\States\\Default Work Unit\\Textures\\Marble",
+        "GUID": "{608BD2DC-F228-42B8-95B0-132066B6F6B1}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

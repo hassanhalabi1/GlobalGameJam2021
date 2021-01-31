@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1188532668",
+    "GUID": "{46D791BC-91BC-11BC-BCBC-BCBCBCBCBCBC}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2C87DC52BD9B407F97AE8B8D89B3CB95",
+    "ShortName": "SB_2C87DC52BD9B407F97AE8B8D89B3CB95",
+    "Path": "SB_2C87DC52BD9B407F97AE8B8D89B3CB95.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1363745605",
+      "Name": "Play_Breath_RND",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Breath_RND",
+      "GUID": "{2C87DC52-BD9B-407F-97AE-8B8D89B3CB95}",
+      "DurationType": "OneShot",
+      "DurationMin": "75.985954",
+      "DurationMax": "115.985954",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "58301786",
+        "Language": "SFX",
+        "ShortName": "OS_Voice_Breathe_Monster_02.wav",
+        "Path": "SFX\\OS_Voice_Breathe_Monster_02_10C4C929.wem"
+       },
+       {
+        "Id": "1014364130",
+        "Language": "SFX",
+        "ShortName": "OS_Voice_Breathe_Monster_01.wav",
+        "Path": "SFX\\OS_Voice_Breathe_Monster_01_10C4C929.wem"
+       },
+       {
+        "Id": "1066812456",
+        "Language": "SFX",
+        "ShortName": "OS_Voice_Breathe_Monster_03.wav",
+        "Path": "SFX\\OS_Voice_Breathe_Monster_03_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{F260A097-C6A3-4AD8-8342-E68DC791C60C}"
+     }
+    ]
+   }
+  ]
+ }
+}

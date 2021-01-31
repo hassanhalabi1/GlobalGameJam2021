@@ -1,0 +1,52 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "969701325",
+    "GUID": "{39CC77CD-77CD-17CD-CDCD-CDCDCDCDCDCD}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2CFE2F8E5A6440728E8BFE97A91555FD",
+    "ShortName": "SB_2CFE2F8E5A6440728E8BFE97A91555FD",
+    "Path": "SB_2CFE2F8E5A6440728E8BFE97A91555FD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "287361318",
+      "Name": "Play_Start_Sentence_SFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Start_Sentence_SFX",
+      "GUID": "{2CFE2F8E-5A64-4072-8E8B-FE97A91555FD}",
+      "DurationType": "OneShot",
+      "DurationMin": "24.042667",
+      "DurationMax": "24.042667",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "590556076",
+        "Language": "SFX",
+        "ShortName": "Fourchelangue_10-01.wav",
+        "Path": "SFX\\Fourchelangue_10-01_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

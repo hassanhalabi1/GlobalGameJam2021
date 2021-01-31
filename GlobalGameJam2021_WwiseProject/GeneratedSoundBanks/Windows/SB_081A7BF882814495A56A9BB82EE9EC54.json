@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2138260799",
+    "GUID": "{7F73453F-453F-153F-3F3F-3F3F3F3F3F3F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_081A7BF882814495A56A9BB82EE9EC54",
+    "ShortName": "SB_081A7BF882814495A56A9BB82EE9EC54",
+    "Path": "SB_081A7BF882814495A56A9BB82EE9EC54.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1699343283",
+      "Name": "Play_Music_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Menu",
+      "GUID": "{081A7BF8-8281-4495-A56A-9BB82EE9EC54}",
+      "DurationType": "OneShot",
+      "DurationMin": "115.199997",
+      "DurationMax": "115.199997",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "501140307",
+        "Language": "SFX",
+        "ShortName": "musique_play_jam.wav",
+        "Path": "SFX\\musique_play_jam_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

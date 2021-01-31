@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3589640637	Play_Monster_FTPS_Switch			\Default Work Unit\Play_Monster_FTPS_Switch	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1276632493	Textures			\Default Work Unit\Textures	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Textures			
+	1127618254	Marble	Textures			
+	2058049674	Wood	Textures			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+

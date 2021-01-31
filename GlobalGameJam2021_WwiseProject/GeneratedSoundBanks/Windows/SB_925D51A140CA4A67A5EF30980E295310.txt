@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3331603095	Play_CloseDoor_Wood_RND			\Default Work Unit\Play_CloseDoor_Wood_RND	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3035478211",
+    "GUID": "{B4EDB8C3-B8C3-18C3-C3C3-C3C3C3C3C3C3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_CFDE81907FF14FB59A5F2B1D0AF93787",
+    "ShortName": "SB_CFDE81907FF14FB59A5F2B1D0AF93787",
+    "Path": "SB_CFDE81907FF14FB59A5F2B1D0AF93787.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+     }
+    ]
+   }
+  ]
+ }
+}

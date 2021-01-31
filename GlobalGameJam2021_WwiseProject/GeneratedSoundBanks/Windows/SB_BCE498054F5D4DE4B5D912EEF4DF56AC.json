@@ -1,0 +1,167 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2882579383",
+    "GUID": "{ABD0ABB7-ABB7-1BB7-B7B7-B7B7B7B7B7B7}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BCE498054F5D4DE4B5D912EEF4DF56AC",
+    "ShortName": "SB_BCE498054F5D4DE4B5D912EEF4DF56AC",
+    "Path": "SB_BCE498054F5D4DE4B5D912EEF4DF56AC.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2870827772",
+      "Name": "Play_Indoor_BLD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Indoor_BLD",
+      "GUID": "{BCE49805-4F5D-4DE4-B5D9-12EEF4DF56AC}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "27754977",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v7.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v7_10C4C929.wem"
+       },
+       {
+        "Id": "64870057",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v1.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v1_10C4C929.wem"
+       },
+       {
+        "Id": "146440069",
+        "Language": "SFX",
+        "ShortName": "LP_Wind_Indoor_03.wav",
+        "Path": "SFX\\LP_Wind_Indoor_03_8AC53D4B.wem"
+       },
+       {
+        "Id": "412746621",
+        "Language": "SFX",
+        "ShortName": "LP_Wind_Indoor_02.wav",
+        "Path": "SFX\\LP_Wind_Indoor_02_EE177D8E.wem"
+       },
+       {
+        "Id": "506984282",
+        "Language": "SFX",
+        "ShortName": "LP_GeneralAmbiant_02.wav",
+        "Path": "SFX\\LP_GeneralAmbiant_02_D79FB2B7.wem"
+       },
+       {
+        "Id": "610318655",
+        "Language": "SFX",
+        "ShortName": "LP_Wind_Indoor_04.wav",
+        "Path": "SFX\\LP_Wind_Indoor_04_F6009799.wem"
+       },
+       {
+        "Id": "808144072",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v5.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v5_10C4C929.wem"
+       },
+       {
+        "Id": "856322227",
+        "Language": "SFX",
+        "ShortName": "OS_Drone_02.wav",
+        "Path": "SFX\\OS_Drone_02_10C4C929.wem"
+       },
+       {
+        "Id": "892631991",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v4.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v4_10C4C929.wem"
+       },
+       {
+        "Id": "903144959",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v2.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v2_54AAC62D.wem"
+       },
+       {
+        "Id": "941803038",
+        "Language": "SFX",
+        "ShortName": "OS_Drone_01.wav",
+        "Path": "SFX\\OS_Drone_01_10C4C929.wem"
+       },
+       {
+        "Id": "945784596",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v3.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v3_10C4C929.wem"
+       },
+       {
+        "Id": "991442104",
+        "Language": "SFX",
+        "ShortName": "OS_MUSIQUE AMB_v6.wav",
+        "Path": "SFX\\OS_MUSIQUE AMB_v6_10C4C929.wem"
+       },
+       {
+        "Id": "1061316721",
+        "Language": "SFX",
+        "ShortName": "LP_GeneralAmbiant_01.wav",
+        "Path": "SFX\\LP_GeneralAmbiant_01_D79FB2B7.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{E29093A8-BBB1-4F4F-BC19-D17C4420CB3E}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{E29093A8-BBB1-4F4F-BC19-D17C4420CB3E}",
+        "Media": [
+         {
+          "Id": "1061316721"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6C6A75FD-6FF3-4399-951B-507CD09E3CB8}",
+        "Media": [
+         {
+          "Id": "506984282"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1088209313",
+      "Name": "Floor",
+      "ObjectPath": "\\States\\Default Work Unit\\Floor",
+      "GUID": "{F11686F1-F048-46FC-95B9-6F07E8D71472}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Floor\\None",
+        "GUID": "{5C5E1325-5510-4882-8570-FF5BA767B370}"
+       },
+       {
+        "Id": "997381354",
+        "Name": "RDC",
+        "ObjectPath": "\\States\\Default Work Unit\\Floor\\RDC",
+        "GUID": "{E29093A8-BBB1-4F4F-BC19-D17C4420CB3E}"
+       },
+       {
+        "Id": "2668588619",
+        "Name": "Etage",
+        "ObjectPath": "\\States\\Default Work Unit\\Floor\\Etage",
+        "GUID": "{6C6A75FD-6FF3-4399-951B-507CD09E3CB8}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

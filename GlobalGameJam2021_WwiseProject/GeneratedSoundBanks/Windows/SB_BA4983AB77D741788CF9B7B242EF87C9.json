@@ -1,0 +1,102 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1708681413",
+    "GUID": "{65D868C5-68C5-18C5-C5C5-C5C5C5C5C5C5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BA4983AB77D741788CF9B7B242EF87C9",
+    "ShortName": "SB_BA4983AB77D741788CF9B7B242EF87C9",
+    "Path": "SB_BA4983AB77D741788CF9B7B242EF87C9.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2307006512",
+      "Name": "Play_OpenDoor_Wood_SQC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_OpenDoor_Wood_SQC",
+      "GUID": "{BA4983AB-77D7-4178-8CF9-B7B242EF87C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.160667",
+      "DurationMax": "2.891333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "55983871",
+        "Language": "SFX",
+        "ShortName": "OS_WOOD_DOOROPEN04.wav",
+        "Path": "SFX\\OS_WOOD_DOOROPEN04_10C4C929.wem"
+       },
+       {
+        "Id": "72951132",
+        "Language": "SFX",
+        "ShortName": "OS_HANDLE_WOOD_DOOR04.wav",
+        "Path": "SFX\\OS_HANDLE_WOOD_DOOR04_10C4C929.wem"
+       },
+       {
+        "Id": "206761999",
+        "Language": "SFX",
+        "ShortName": "OS_WOOD_DOOROPEN01.wav",
+        "Path": "SFX\\OS_WOOD_DOOROPEN01_10C4C929.wem"
+       },
+       {
+        "Id": "557304364",
+        "Language": "SFX",
+        "ShortName": "OS_WOOD_DOOROPEN02.wav",
+        "Path": "SFX\\OS_WOOD_DOOROPEN02_10C4C929.wem"
+       },
+       {
+        "Id": "663824887",
+        "Language": "SFX",
+        "ShortName": "OS_HANDLE_WOOD_DOOR01.wav",
+        "Path": "SFX\\OS_HANDLE_WOOD_DOOR01_10C4C929.wem"
+       },
+       {
+        "Id": "878620667",
+        "Language": "SFX",
+        "ShortName": "OS_HANDLE_WOOD_DOOR05.wav",
+        "Path": "SFX\\OS_HANDLE_WOOD_DOOR05_10C4C929.wem"
+       },
+       {
+        "Id": "903487678",
+        "Language": "SFX",
+        "ShortName": "OS_WOOD_DOOROPEN03.wav",
+        "Path": "SFX\\OS_WOOD_DOOROPEN03_10C4C929.wem"
+       },
+       {
+        "Id": "1046617884",
+        "Language": "SFX",
+        "ShortName": "OS_HANDLE_WOOD_DOOR02.wav",
+        "Path": "SFX\\OS_HANDLE_WOOD_DOOR02_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{F260A097-C6A3-4AD8-8342-E68DC791C60C}"
+     }
+    ]
+   }
+  ]
+ }
+}

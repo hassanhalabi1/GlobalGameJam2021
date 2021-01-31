@@ -1,0 +1,90 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2499428313",
+    "GUID": "{94FA3FD9-3FD9-1FD9-D9D9-D9D9D9D9D9D9}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_1E60AC515DA5424BB5D24ACB9311EE79",
+    "ShortName": "SB_1E60AC515DA5424BB5D24ACB9311EE79",
+    "Path": "SB_1E60AC515DA5424BB5D24ACB9311EE79.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "347548156",
+      "Name": "Play_OpenDoor_Metal_SQC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_OpenDoor_Metal_SQC",
+      "GUID": "{1E60AC51-5DA5-424B-B5D2-4ACB9311EE79}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.774333",
+      "DurationMax": "2.046333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "273438634",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_HANDLE03.wav",
+        "Path": "SFX\\OS_METAL_HANDLE03_10C4C929.wem"
+       },
+       {
+        "Id": "621165514",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_DOOROPEN02.wav",
+        "Path": "SFX\\OS_METAL_DOOROPEN02_10C4C929.wem"
+       },
+       {
+        "Id": "832303131",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_HANDLE02.wav",
+        "Path": "SFX\\OS_METAL_HANDLE02_10C4C929.wem"
+       },
+       {
+        "Id": "923381719",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_DOOROPEN03.wav",
+        "Path": "SFX\\OS_METAL_DOOROPEN03_10C4C929.wem"
+       },
+       {
+        "Id": "955164316",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_HANDLE01.wav",
+        "Path": "SFX\\OS_METAL_HANDLE01_10C4C929.wem"
+       },
+       {
+        "Id": "1022394538",
+        "Language": "SFX",
+        "ShortName": "OS_METAL_DOOROPEN01.wav",
+        "Path": "SFX\\OS_METAL_DOOROPEN01_10C4C929.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{F260A097-C6A3-4AD8-8342-E68DC791C60C}"
+     }
+    ]
+   }
+  ]
+ }
+}

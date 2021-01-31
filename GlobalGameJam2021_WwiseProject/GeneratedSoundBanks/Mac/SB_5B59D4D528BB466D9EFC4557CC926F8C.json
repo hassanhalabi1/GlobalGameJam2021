@@ -1,0 +1,176 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1752513467",
+    "GUID": "{68753BBB-3BBB-1BBB-BBBB-BBBBBBBBBBBB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_5B59D4D528BB466D9EFC4557CC926F8C",
+    "ShortName": "SB_5B59D4D528BB466D9EFC4557CC926F8C",
+    "Path": "SB_5B59D4D528BB466D9EFC4557CC926F8C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3589640637",
+      "Name": "Play_Monster_FTPS_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Monster_FTPS_Switch",
+      "GUID": "{5B59D4D5-28BB-466D-9EFC-4557CC926F8C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.606259",
+      "DurationMax": "0.606259",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "89925107",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_marbel_monstre_v2.wav",
+        "Path": "SFX\\OS_FTPS_marbel_monstre_v2_10C4C929.wem"
+       },
+       {
+        "Id": "135398184",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_marbel_monstre_v1.wav",
+        "Path": "SFX\\OS_FTPS_marbel_monstre_v1_10C4C929.wem"
+       },
+       {
+        "Id": "323261770",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_monstre_v2.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_monstre_v2_10C4C929.wem"
+       },
+       {
+        "Id": "518028873",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_monstre_v4.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_monstre_v4_10C4C929.wem"
+       },
+       {
+        "Id": "556357889",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_marble_monstre_v5.wav",
+        "Path": "SFX\\OS_FTPS_marble_monstre_v5_10C4C929.wem"
+       },
+       {
+        "Id": "627821373",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_marbel_monstre_v4.wav",
+        "Path": "SFX\\OS_FTPS_marbel_monstre_v4_10C4C929.wem"
+       },
+       {
+        "Id": "664130443",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_marbel_monstre_v3.wav",
+        "Path": "SFX\\OS_FTPS_marbel_monstre_v3_10C4C929.wem"
+       },
+       {
+        "Id": "915060313",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_monstre_v1.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_monstre_v1_10C4C929.wem"
+       },
+       {
+        "Id": "983973539",
+        "Language": "SFX",
+        "ShortName": "OS_FTPS_WOOD_monstre_v3.wav",
+        "Path": "SFX\\OS_FTPS_WOOD_monstre_v3_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{C1EB4057-AF93-418F-9E62-76F403124C70}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{C1EB4057-AF93-418F-9E62-76F403124C70}",
+        "Media": [
+         {
+          "Id": "915060313"
+         },
+         {
+          "Id": "518028873"
+         },
+         {
+          "Id": "323261770"
+         },
+         {
+          "Id": "983973539"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{608BD2DC-F228-42B8-95B0-132066B6F6B1}",
+        "Media": [
+         {
+          "Id": "627821373"
+         },
+         {
+          "Id": "556357889"
+         },
+         {
+          "Id": "664130443"
+         },
+         {
+          "Id": "89925107"
+         },
+         {
+          "Id": "135398184"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{F260A097-C6A3-4AD8-8342-E68DC791C60C}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1276632493",
+      "Name": "Textures",
+      "ObjectPath": "\\States\\Default Work Unit\\Textures",
+      "GUID": "{1851688C-DD95-43A8-AF06-33D37807453A}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Textures\\None",
+        "GUID": "{AB22C8DA-91BE-4720-A11C-BFCBA1A95328}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\States\\Default Work Unit\\Textures\\Wood",
+        "GUID": "{C1EB4057-AF93-418F-9E62-76F403124C70}"
+       },
+       {
+        "Id": "1127618254",
+        "Name": "Marble",
+        "ObjectPath": "\\States\\Default Work Unit\\Textures\\Marble",
+        "GUID": "{608BD2DC-F228-42B8-95B0-132066B6F6B1}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

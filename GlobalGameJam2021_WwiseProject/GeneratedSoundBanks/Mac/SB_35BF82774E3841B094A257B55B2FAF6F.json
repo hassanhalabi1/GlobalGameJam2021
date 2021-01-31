@@ -1,0 +1,74 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\",
+   "SourceFilesRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\cours\\c++\\GlobalGameJam2021\\GlobalGameJam2021_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "681709563",
+    "GUID": "{28A20FFB-0FFB-1FFB-FBFB-FBFBFBFBFBFB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_35BF82774E3841B094A257B55B2FAF6F",
+    "ShortName": "SB_35BF82774E3841B094A257B55B2FAF6F",
+    "Path": "SB_35BF82774E3841B094A257B55B2FAF6F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2440486900",
+      "Name": "Play_Key_BLD",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Key_BLD",
+      "GUID": "{35BF8277-4E38-41B0-94A2-57B55B2FAF6F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.494626",
+      "DurationMax": "3.494626",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "10723046",
+        "Language": "SFX",
+        "ShortName": "OS_Key05.wav",
+        "Path": "SFX\\OS_Key05_10C4C929.wem"
+       },
+       {
+        "Id": "186123656",
+        "Language": "SFX",
+        "ShortName": "OS_Key03.wav",
+        "Path": "SFX\\OS_Key03_10C4C929.wem"
+       },
+       {
+        "Id": "351117214",
+        "Language": "SFX",
+        "ShortName": "OS_Key04.wav",
+        "Path": "SFX\\OS_Key04_10C4C929.wem"
+       },
+       {
+        "Id": "428708152",
+        "Language": "SFX",
+        "ShortName": "OS_Key_Feedback01.wav",
+        "Path": "SFX\\OS_Key_Feedback01_10C4C929.wem"
+       },
+       {
+        "Id": "585674595",
+        "Language": "SFX",
+        "ShortName": "OS_Key01.wav",
+        "Path": "SFX\\OS_Key01_6C49A565.wem"
+       },
+       {
+        "Id": "1005894491",
+        "Language": "SFX",
+        "ShortName": "OS_Key02.wav",
+        "Path": "SFX\\OS_Key02_6BBEA77E.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1659277262	Play_FTPS_RUN_WALK_SWITCH			\Default Work Unit\Play_FTPS_RUN_WALK_SWITCH	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	979416976	RUN_WALK			\Default Work Unit\RUN_WALK	
+	1276632493	Textures			\Default Work Unit\Textures	
+
+State	ID	Name	State Group			Notes
+	712161704	Run	RUN_WALK			
+	748895195	None	RUN_WALK			
+	2108779966	Walk	RUN_WALK			
+	748895195	None	Textures			
+	1127618254	Marble	Textures			
+	2058049674	Wood	Textures			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	77114722	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Mixer\Footsteps\Footsteps_Mixer\FTPS_RUN_WALK_SWITCH\Run_Texture_Switch\FTPS_Wood_Run_BLD\Wood_creak_RND\silence\Wwise Silence	
+
