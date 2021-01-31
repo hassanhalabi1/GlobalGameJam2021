@@ -387,6 +387,36 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Danger" ID="{6FD7E58F-A70D-4707-88CB-E96BDC408E78}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F820AD67-C2A9-4FE1-95D5-65E0BC069649}" ShortID="194949385">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Danger" ID="{87CAF5D9-108B-49A1-8F26-2DAE1283F362}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MentalHealth_BLD" ID="{951946D1-B5DF-41DF-9545-225E92983E4C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{E24E5C84-5722-4E1C-B8C9-295440F3A078}" ShortID="1043265826">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MentalHealth_BLD" ID="{1074BE66-94E3-4804-8709-7DA7CCA18E77}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

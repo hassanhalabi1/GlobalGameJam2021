@@ -43,7 +43,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
 														</Reference>
 														<Reference Name="DefaultSwitchOrState">
-															<ObjectRef Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}" WorkUnitID="{5FDEAB74-F8DF-479D-9B0A-0A5F71B4064C}"/>
+															<ObjectRef Name="Run" ID="{1375B908-C36D-4720-9E11-2133C6795298}" WorkUnitID="{5FDEAB74-F8DF-479D-9B0A-0A5F71B4064C}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
@@ -360,22 +360,15 @@
 																						<ActiveSource Name="Wwise Silence" ID="{9EFF60FD-8FA2-47EA-8ECA-D5B248350659}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
-																			</ChildrenList>
-																		</RandomSequenceContainer>
-																		<RandomSequenceContainer Name="FTPS_Wood_RND" ID="{00A70EB1-7D68-448E-8E13-56F999EFDAE3}" ShortID="260466079">
-																			<PropertyList>
-																				<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="Conversion">
-																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-																				</Reference>
-																				<Reference Name="OutputBus">
-																					<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-																				</Reference>
-																			</ReferenceList>
-																			<ChildrenList>
-																				<Sound Name="OS_FTPS_WOOD_WALK01" ID="{85AA8897-5B39-4823-A271-26831DEFA76E}" ShortID="987471726">
+																				<RandomSequenceContainer Name="FTPS_Wood_RND" ID="{00A70EB1-7D68-448E-8E13-56F999EFDAE3}" ShortID="260466079">
+																					<PropertyList>
+																						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+																						<Property Name="UserAuxSendVolume0" Type="Real64">
+																							<ValueList>
+																								<Value>-7</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -383,108 +376,123 @@
 																						<Reference Name="OutputBus">
 																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
 																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="OS_FTPS_WOOD_WALK01" ID="{36631419-8EF7-4FF6-8434-86052635F16C}">
-																							<Language>SFX</Language>
-																							<AudioFile>OS_FTPS_WOOD_WALK01.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="79342075"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="OS_FTPS_WOOD_WALK01" ID="{36631419-8EF7-4FF6-8434-86052635F16C}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="OS_FTPS_WOOD_WALK02" ID="{5D78A48A-9EFC-4B29-A9E1-8963A95FF559}" ShortID="807334810">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																						<Reference Name="UserAuxSend0">
+																							<ObjectRef Name="Reverb" ID="{CFDE8190-7FF1-4FB5-9A5F-2B1D0AF93787}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
 																						</Reference>
 																					</ReferenceList>
 																					<ChildrenList>
-																						<AudioFileSource Name="OS_FTPS_WOOD_WALK02" ID="{E1DA7EE8-D9E2-403F-8650-036CBA54CA28}">
-																							<Language>SFX</Language>
-																							<AudioFile>OS_FTPS_WOOD_WALK02.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="542382533"/>
-																							</MediaIDList>
-																						</AudioFileSource>
+																						<Sound Name="OS_FTPS_WOOD_WALK01" ID="{85AA8897-5B39-4823-A271-26831DEFA76E}" ShortID="987471726">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_FTPS_WOOD_WALK01" ID="{36631419-8EF7-4FF6-8434-86052635F16C}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_FTPS_WOOD_WALK01.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="79342075"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_FTPS_WOOD_WALK01" ID="{36631419-8EF7-4FF6-8434-86052635F16C}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_FTPS_WOOD_WALK02" ID="{5D78A48A-9EFC-4B29-A9E1-8963A95FF559}" ShortID="807334810">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_FTPS_WOOD_WALK02" ID="{E1DA7EE8-D9E2-403F-8650-036CBA54CA28}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_FTPS_WOOD_WALK02.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="542382533"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_FTPS_WOOD_WALK02" ID="{E1DA7EE8-D9E2-403F-8650-036CBA54CA28}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_FTPS_WOOD_WALK03" ID="{21E5AD87-A547-4084-BF98-49218CFC5F71}" ShortID="502203231">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_FTPS_WOOD_WALK03" ID="{EB3B1290-490C-4FF6-9AEF-BAB095A0D341}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_FTPS_WOOD_WALK03.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="695008690"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_FTPS_WOOD_WALK03" ID="{EB3B1290-490C-4FF6-9AEF-BAB095A0D341}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_FTPS_WOOD_WALK04" ID="{53C616A2-B4CE-4FB0-88B6-6CAB1F7D16B5}" ShortID="558052138">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_FTPS_WOOD_WALK04" ID="{58815396-27DA-426A-8817-298D6502081B}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_FTPS_WOOD_WALK04.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="152606195"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_FTPS_WOOD_WALK04" ID="{58815396-27DA-426A-8817-298D6502081B}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
+																						<Sound Name="OS_FTPS_WOOD_WALK05" ID="{AADEADCF-0854-4665-959E-75BA84E32C45}" ShortID="1997871">
+																							<ReferenceList>
+																								<Reference Name="Conversion">
+																									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																								</Reference>
+																								<Reference Name="OutputBus">
+																									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																								</Reference>
+																							</ReferenceList>
+																							<ChildrenList>
+																								<AudioFileSource Name="OS_FTPS_WOOD_WALK05" ID="{31B19F23-B2B1-48E5-A880-92EF5B8DB6CA}">
+																									<Language>SFX</Language>
+																									<AudioFile>OS_FTPS_WOOD_WALK05.wav</AudioFile>
+																									<MediaIDList>
+																										<MediaID ID="470912748"/>
+																									</MediaIDList>
+																								</AudioFileSource>
+																							</ChildrenList>
+																							<ActiveSourceList>
+																								<ActiveSource Name="OS_FTPS_WOOD_WALK05" ID="{31B19F23-B2B1-48E5-A880-92EF5B8DB6CA}" Platform="Linked"/>
+																							</ActiveSourceList>
+																						</Sound>
 																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="OS_FTPS_WOOD_WALK02" ID="{E1DA7EE8-D9E2-403F-8650-036CBA54CA28}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="OS_FTPS_WOOD_WALK03" ID="{21E5AD87-A547-4084-BF98-49218CFC5F71}" ShortID="502203231">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="OS_FTPS_WOOD_WALK03" ID="{EB3B1290-490C-4FF6-9AEF-BAB095A0D341}">
-																							<Language>SFX</Language>
-																							<AudioFile>OS_FTPS_WOOD_WALK03.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="695008690"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="OS_FTPS_WOOD_WALK03" ID="{EB3B1290-490C-4FF6-9AEF-BAB095A0D341}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="OS_FTPS_WOOD_WALK04" ID="{53C616A2-B4CE-4FB0-88B6-6CAB1F7D16B5}" ShortID="558052138">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="OS_FTPS_WOOD_WALK04" ID="{58815396-27DA-426A-8817-298D6502081B}">
-																							<Language>SFX</Language>
-																							<AudioFile>OS_FTPS_WOOD_WALK04.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="152606195"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="OS_FTPS_WOOD_WALK04" ID="{58815396-27DA-426A-8817-298D6502081B}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
-																				<Sound Name="OS_FTPS_WOOD_WALK05" ID="{AADEADCF-0854-4665-959E-75BA84E32C45}" ShortID="1997871">
-																					<ReferenceList>
-																						<Reference Name="Conversion">
-																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-																						</Reference>
-																						<Reference Name="OutputBus">
-																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-																						</Reference>
-																					</ReferenceList>
-																					<ChildrenList>
-																						<AudioFileSource Name="OS_FTPS_WOOD_WALK05" ID="{31B19F23-B2B1-48E5-A880-92EF5B8DB6CA}">
-																							<Language>SFX</Language>
-																							<AudioFile>OS_FTPS_WOOD_WALK05.wav</AudioFile>
-																							<MediaIDList>
-																								<MediaID ID="470912748"/>
-																							</MediaIDList>
-																						</AudioFileSource>
-																					</ChildrenList>
-																					<ActiveSourceList>
-																						<ActiveSource Name="OS_FTPS_WOOD_WALK05" ID="{31B19F23-B2B1-48E5-A880-92EF5B8DB6CA}" Platform="Linked"/>
-																					</ActiveSourceList>
-																				</Sound>
+																				</RandomSequenceContainer>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
 																	</ChildrenList>
@@ -1007,6 +1015,9 @@
 								<Folder Name="MentalHealth" ID="{389DD029-6193-4400-BB20-83E6A0CFB673}" ShortID="335537532">
 									<ChildrenList>
 										<BlendContainer Name="MentalHealth_BLD" ID="{1074BE66-94E3-4804-8709-7DA7CCA18E77}" ShortID="921059000">
+											<PropertyList>
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -1435,6 +1446,7 @@
 									<ChildrenList>
 										<BlendContainer Name="Rain_Thunder_BLD" ID="{7B9B77D2-7F57-419F-9EDC-2B85869E5619}" ShortID="523629817">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="BlendBehavior" Type="int16" Value="1"/>
 												<Property Name="Lowpass" Type="int16">
 													<RTPCList>
@@ -1497,6 +1509,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="New Attenuation" ID="{47E21561-259C-47D9-B710-52C4222CD3D6}" WorkUnitID="{D8D0E02E-A423-41E8-A1F9-BCF4AFA4E374}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
 												</Reference>
@@ -1783,6 +1798,9 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{099CF08B-45EB-4CF6-89D6-FB1B4241CDAD}"/>
+											</PositioningInfo>
 											<BlendTrackList>
 												<BlendTrack Name="Weather" ID="{FBBF8E89-6687-4868-B7C6-FD4D3EE410F2}" ShortID="883534949">
 													<BlendTrackAssocList>
@@ -2065,6 +2083,7 @@
 													</ModifierList>
 												</Property>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="30">
 													<ModifierList>
@@ -2435,6 +2454,20 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Breath_RND" ID="{EAD8C956-2276-4D0E-84F0-8BB9B47319F4}" ShortID="587350149">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5F4DA2AB-88C6-4766-AE5C-8E42E3F48CE7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="35">

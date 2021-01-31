@@ -46,6 +46,10 @@
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_OpenDoor_Wood_SQC" ID="{BA4983AB-77D7-4178-8CF9-B7B242EF87C9}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Quit" ID="{2BFCABD2-2776-41BF-984F-A12B444BF37E}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -64,6 +68,10 @@
 						<Module>
 							<ObjectRef Name="Play_Alight_RND" ID="{7F19D276-BBD7-4B7A-8796-E478E8417261}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
 							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_CloseDoor_Wood_RND" ID="{925D51A1-40CA-4A67-A5EF-30980E295310}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Over" ID="{868AE386-1A26-406C-A285-9AD678A87401}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
@@ -89,29 +97,36 @@
 							<ObjectRef Name="Play_Start_Sentence_SFX" ID="{2CFE2F8E-5A64-4072-8E8B-FE97A91555FD}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
 							<Position X="5" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Danger" ID="{6FD7E58F-A70D-4707-88CB-E96BDC408E78}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MentalHealth_BLD" ID="{951946D1-B5DF-41DF-9545-225E92983E4C}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="5" Y="4"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Monster_Distance" ID="{F7B1EF70-8700-4487-994B-266C73967A15}"/>
-							<Value>70.686</Value>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}"/>
-							<Value>1.24347957217781E-311</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MentalHealth_Status" ID="{858EAC36-E8DF-4858-9EC6-9BF89457D164}"/>
-							<Value>0.105708245243143</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}"/>
-							<Value>48.4</Value>
+							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Near" ID="{9DB8BA9F-3B5A-4AC5-943E-2D62FEAE44A8}"/>
-						<CurrentStateRef Name="Wood" ID="{C1EB4057-AF93-418F-9E62-76F403124C70}"/>
-						<CurrentStateRef Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}"/>
+						<CurrentStateRef Name="None" ID="{AB22C8DA-91BE-4720-A11C-BFCBA1A95328}"/>
+						<CurrentStateRef Name="None" ID="{EDA0EC73-B076-4077-8FF6-F783557828E0}"/>
 						<CurrentStateRef Name="None" ID="{5C5E1325-5510-4882-8570-FF5BA767B370}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
