@@ -17,7 +17,7 @@
 				<GameParameter Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="50"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

@@ -4,6 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{4788F1C6-3467-4F6B-A96A-3374C6A32653}" WorkUnitID="{AB8D71EB-1CFD-4268-8BFC-C45DA46B872F}"/>

@@ -111,7 +111,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Near" ID="{9DB8BA9F-3B5A-4AC5-943E-2D62FEAE44A8}"/>
 						<CurrentStateRef Name="Wood" ID="{C1EB4057-AF93-418F-9E62-76F403124C70}"/>
-						<CurrentStateRef Name="None" ID="{EDA0EC73-B076-4077-8FF6-F783557828E0}"/>
+						<CurrentStateRef Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}"/>
 						<CurrentStateRef Name="None" ID="{5C5E1325-5510-4882-8570-FF5BA767B370}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

@@ -202,6 +202,14 @@
 																	</ReferenceList>
 																	<ChildrenList>
 																		<RandomSequenceContainer Name="Wood_creak_RND" ID="{9C48499E-4B50-40A3-994B-76FDC66AF8C1}" ShortID="292600292">
+																			<PropertyList>
+																				<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-4</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -212,6 +220,13 @@
 																			</ReferenceList>
 																			<ChildrenList>
 																				<Sound Name="OS_FTPS_Random_WoodCreak01" ID="{9F62F674-E15A-411D-8389-D71692F2DA38}" ShortID="749649510">
+																					<PropertyList>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -234,6 +249,13 @@
 																					</ActiveSourceList>
 																				</Sound>
 																				<Sound Name="OS_FTPS_Random_WoodCreak02" ID="{21BB3CCF-C86D-4927-95A9-03BCED76E7DD}" ShortID="212928274">
+																					<PropertyList>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -256,6 +278,13 @@
 																					</ActiveSourceList>
 																				</Sound>
 																				<Sound Name="OS_FTPS_Random_WoodCreak03" ID="{D48865C8-8C6B-423C-A315-A4B8BB041D6D}" ShortID="820222813">
+																					<PropertyList>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -278,6 +307,13 @@
 																					</ActiveSourceList>
 																				</Sound>
 																				<Sound Name="OS_FTPS_Random_WoodCreak04" ID="{489E9178-A103-4528-954E-2EE4F9ACF7B8}" ShortID="652915398">
+																					<PropertyList>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>5</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
 																					<ReferenceList>
 																						<Reference Name="Conversion">
 																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -299,9 +335,37 @@
 																						<ActiveSource Name="OS_FTPS_Random_WoodCreak04" ID="{FD23AF88-F5CD-4AC1-84ED-6E9BA0F9A18A}" Platform="Linked"/>
 																					</ActiveSourceList>
 																				</Sound>
+																				<Sound Name="Silence" ID="{0E081838-D288-4943-8E20-871752BBC298}" ShortID="533491693">
+																					<PropertyList>
+																						<Property Name="Weight" Type="Real64">
+																							<ValueList>
+																								<Value>99</Value>
+																							</ValueList>
+																						</Property>
+																					</PropertyList>
+																					<ReferenceList>
+																						<Reference Name="Conversion">
+																							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																						</Reference>
+																						<Reference Name="OutputBus">
+																							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																						</Reference>
+																					</ReferenceList>
+																					<ChildrenList>
+																						<SourcePlugin Name="Wwise Silence" ID="{9EFF60FD-8FA2-47EA-8ECA-D5B248350659}" ShortID="900116817" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																							<Language>SFX</Language>
+																						</SourcePlugin>
+																					</ChildrenList>
+																					<ActiveSourceList>
+																						<ActiveSource Name="Wwise Silence" ID="{9EFF60FD-8FA2-47EA-8ECA-D5B248350659}" Platform="Linked"/>
+																					</ActiveSourceList>
+																				</Sound>
 																			</ChildrenList>
 																		</RandomSequenceContainer>
 																		<RandomSequenceContainer Name="FTPS_Wood_RND" ID="{00A70EB1-7D68-448E-8E13-56F999EFDAE3}" ShortID="260466079">
+																			<PropertyList>
+																				<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -700,6 +764,14 @@
 																			</ChildrenList>
 																		</RandomSequenceContainer>
 																		<RandomSequenceContainer Name="Wood_creak_RND" ID="{8F62B67D-9460-4358-92E6-14F3A7F251E3}" ShortID="553014834">
+																			<PropertyList>
+																				<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+																				<Property Name="Volume" Type="Real64">
+																					<ValueList>
+																						<Value>-6</Value>
+																					</ValueList>
+																				</Property>
+																			</PropertyList>
 																			<ReferenceList>
 																				<Reference Name="Conversion">
 																					<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -713,7 +785,7 @@
 																					<PropertyList>
 																						<Property Name="Weight" Type="Real64">
 																							<ValueList>
-																								<Value>24</Value>
+																								<Value>20</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -742,7 +814,7 @@
 																					<PropertyList>
 																						<Property Name="Weight" Type="Real64">
 																							<ValueList>
-																								<Value>31</Value>
+																								<Value>20</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -771,7 +843,7 @@
 																					<PropertyList>
 																						<Property Name="Weight" Type="Real64">
 																							<ValueList>
-																								<Value>30.001</Value>
+																								<Value>20</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -800,7 +872,7 @@
 																					<PropertyList>
 																						<Property Name="Weight" Type="Real64">
 																							<ValueList>
-																								<Value>34.001</Value>
+																								<Value>20</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -829,7 +901,7 @@
 																					<PropertyList>
 																						<Property Name="Weight" Type="Real64">
 																							<ValueList>
-																								<Value>100</Value>
+																								<Value>80</Value>
 																							</ValueList>
 																						</Property>
 																					</PropertyList>
@@ -1338,67 +1410,18 @@
 					<ChildrenList>
 						<Folder Name="Weather" ID="{30F842AD-6A8F-4BBA-946D-B28BC28C6620}" ShortID="618761370">
 							<ChildrenList>
-								<BlendContainer Name="Rain_Thunder_BLD" ID="{7B9B77D2-7F57-419F-9EDC-2B85869E5619}" ShortID="523629817">
+								<ActorMixer Name="Weather_Mixer" ID="{20B6BB43-5B41-48CD-AA08-4886C5EF7FD1}" ShortID="281348825">
 									<PropertyList>
-										<Property Name="BlendBehavior" Type="int16" Value="1"/>
-										<Property Name="Lowpass" Type="int16">
-											<RTPCList>
-												<RTPC Name="" ID="{6B88F6A8-CB2C-42D3-BB95-77E140CA038F}" ShortID="213629163">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}" WorkUnitID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{308251CC-96D3-4FC0-8007-F02F2E37A189}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>41</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>50</XPos>
-																<YPos>89</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
+										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>1</Value>
 											</ValueList>
-											<RTPCList>
-												<RTPC Name="" ID="{45CB070B-2F9A-4AEF-8654-13089B5AA199}" ShortID="201281240">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}" WorkUnitID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{FFC85827-DD86-4D35-89B0-8C85F743C4FD}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-11.32125</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>50</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1410,26 +1433,68 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Thunder" ID="{1F6CAF39-8E32-4371-B1FC-E6B1B89C1BFF}" ShortID="90738144">
+										<BlendContainer Name="Rain_Thunder_BLD" ID="{7B9B77D2-7F57-419F-9EDC-2B85869E5619}" ShortID="523629817">
 											<PropertyList>
-												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{4AB6A516-6A89-4AC8-856A-E09FA55E6043}">
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{6B88F6A8-CB2C-42D3-BB95-77E140CA038F}" ShortID="213629163">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}" WorkUnitID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{308251CC-96D3-4FC0-8007-F02F2E37A189}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="10"/>
-																	<Property Name="Min" Type="Real64" Value="-5"/>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
 																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>41</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>89</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
-												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{45CB070B-2F9A-4AEF-8654-13089B5AA199}" ShortID="201281240">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}" WorkUnitID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FFC85827-DD86-4D35-89B0-8C85F743C4FD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-11.32125</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1440,7 +1505,27 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="OS_Thunder_Moderate_01" ID="{57EC809A-41B3-4BDF-9480-3D1A3DE82369}" ShortID="271269338">
+												<RandomSequenceContainer Name="Thunder" ID="{1F6CAF39-8E32-4371-B1FC-E6B1B89C1BFF}" ShortID="90738144">
+													<PropertyList>
+														<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{4AB6A516-6A89-4AC8-856A-E09FA55E6043}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="10"/>
+																			<Property Name="Min" Type="Real64" Value="-5"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -1450,19 +1535,232 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Moderate_01" ID="{39C2E9D4-A6A2-412B-A8FD-D97EE724C11C}">
+														<Sound Name="OS_Thunder_Moderate_01" ID="{57EC809A-41B3-4BDF-9480-3D1A3DE82369}" ShortID="271269338">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Moderate_01" ID="{39C2E9D4-A6A2-412B-A8FD-D97EE724C11C}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Moderate_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="715951350"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Moderate_01" ID="{39C2E9D4-A6A2-412B-A8FD-D97EE724C11C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Moderate_02" ID="{6D10C84B-F3D8-47EF-A74C-BFAFC7B85F9B}" ShortID="1049623831">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Moderate_02" ID="{6FBDDD93-1634-4697-AC31-7397DB812CD0}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Moderate_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="759398833"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Moderate_02" ID="{6FBDDD93-1634-4697-AC31-7397DB812CD0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Soft_01" ID="{BEA4B3EE-4270-42FD-A838-A244B135CB74}" ShortID="777874361">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Soft_01" ID="{D6E5C377-FF5D-4DDE-8311-45A3BC37B253}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Soft_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="921764221"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Soft_01" ID="{D6E5C377-FF5D-4DDE-8311-45A3BC37B253}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Soft_02" ID="{9C2BCFD6-F047-461C-98EA-473B3EA58C98}" ShortID="412771986">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Soft_02" ID="{6C73B762-1613-440E-86EF-0619B3C69803}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Soft_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="669096479"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Soft_02" ID="{6C73B762-1613-440E-86EF-0619B3C69803}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Soft_03" ID="{D7B17702-039C-43B2-A52B-9CE824C88B43}" ShortID="339038845">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Soft_03" ID="{F5CED383-6AAC-4CB2-8560-3E5DB878EAD0}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Soft_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="138602187"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Soft_03" ID="{F5CED383-6AAC-4CB2-8560-3E5DB878EAD0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Soft_04" ID="{D4A821AB-CE5F-456E-B4CE-33B9CF4AD49A}" ShortID="411791223">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Soft_04" ID="{4573F8BB-2CF9-4807-B006-2B6399B0CCDE}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Soft_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="348965021"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Soft_04" ID="{4573F8BB-2CF9-4807-B006-2B6399B0CCDE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Strong_01" ID="{67239E4E-8B93-44D7-8304-71C7D35CDB18}" ShortID="293234636">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Strong_01" ID="{128375F2-ECE3-40A0-A51C-21AA2BB3D318}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Strong_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="795882821"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Strong_01" ID="{128375F2-ECE3-40A0-A51C-21AA2BB3D318}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Strong_02" ID="{7E3DE35E-EF5A-4765-8BBD-99402A43EB98}" ShortID="408113252">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Strong_02" ID="{4475BB34-FF5C-4D60-8D4B-081E6C97FF82}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Strong_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="144487041"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Strong_02" ID="{4475BB34-FF5C-4D60-8D4B-081E6C97FF82}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="OS_Thunder_Strong_03" ID="{E07D65D6-E227-4ED0-A037-3884224ED7E7}" ShortID="312350436">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="OS_Thunder_Strong_03" ID="{6418C299-C3FE-4326-AD3C-057531F291DF}">
+																	<Language>SFX</Language>
+																	<AudioFile>OS_Thunder_Strong_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="188328337"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="OS_Thunder_Strong_03" ID="{6418C299-C3FE-4326-AD3C-057531F291DF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="LP_Rain_strong_01" ID="{A4F91212-C25E-4C26-BFCD-F37F63B5CE16}" ShortID="483966115">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LP_Rain_strong_01" ID="{91DC80F5-AB88-4799-8030-DF6E84A8FCC7}">
 															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Moderate_01.wav</AudioFile>
+															<AudioFile>LP_Rain_strong_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="715951350"/>
+																<MediaID ID="1072786912"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Moderate_01" ID="{39C2E9D4-A6A2-412B-A8FD-D97EE724C11C}" Platform="Linked"/>
+														<ActiveSource Name="LP_Rain_strong_01" ID="{91DC80F5-AB88-4799-8030-DF6E84A8FCC7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="OS_Thunder_Moderate_02" ID="{6D10C84B-F3D8-47EF-A74C-BFAFC7B85F9B}" ShortID="1049623831">
+												<Sound Name="LP_Wind_Outdoor_01" ID="{925162DB-91C2-4B15-9A8C-97A5C3FA3676}" ShortID="716572319">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
@@ -1472,238 +1770,37 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Moderate_02" ID="{6FBDDD93-1634-4697-AC31-7397DB812CD0}">
+														<AudioFileSource Name="LP_Wind_Outdoor_01" ID="{07ABC3ED-FDF2-4BD2-8353-5158B9BA56EE}">
 															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Moderate_02.wav</AudioFile>
+															<AudioFile>LP_Wind_Outdoor_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="759398833"/>
+																<MediaID ID="487698499"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Moderate_02" ID="{6FBDDD93-1634-4697-AC31-7397DB812CD0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Soft_01" ID="{BEA4B3EE-4270-42FD-A838-A244B135CB74}" ShortID="777874361">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Soft_01" ID="{D6E5C377-FF5D-4DDE-8311-45A3BC37B253}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Soft_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="921764221"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Soft_01" ID="{D6E5C377-FF5D-4DDE-8311-45A3BC37B253}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Soft_02" ID="{9C2BCFD6-F047-461C-98EA-473B3EA58C98}" ShortID="412771986">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Soft_02" ID="{6C73B762-1613-440E-86EF-0619B3C69803}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Soft_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="669096479"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Soft_02" ID="{6C73B762-1613-440E-86EF-0619B3C69803}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Soft_03" ID="{D7B17702-039C-43B2-A52B-9CE824C88B43}" ShortID="339038845">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Soft_03" ID="{F5CED383-6AAC-4CB2-8560-3E5DB878EAD0}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Soft_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="138602187"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Soft_03" ID="{F5CED383-6AAC-4CB2-8560-3E5DB878EAD0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Soft_04" ID="{D4A821AB-CE5F-456E-B4CE-33B9CF4AD49A}" ShortID="411791223">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Soft_04" ID="{4573F8BB-2CF9-4807-B006-2B6399B0CCDE}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Soft_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="348965021"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Soft_04" ID="{4573F8BB-2CF9-4807-B006-2B6399B0CCDE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Strong_01" ID="{67239E4E-8B93-44D7-8304-71C7D35CDB18}" ShortID="293234636">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Strong_01" ID="{128375F2-ECE3-40A0-A51C-21AA2BB3D318}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Strong_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="795882821"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Strong_01" ID="{128375F2-ECE3-40A0-A51C-21AA2BB3D318}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Strong_02" ID="{7E3DE35E-EF5A-4765-8BBD-99402A43EB98}" ShortID="408113252">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Strong_02" ID="{4475BB34-FF5C-4D60-8D4B-081E6C97FF82}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Strong_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="144487041"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Strong_02" ID="{4475BB34-FF5C-4D60-8D4B-081E6C97FF82}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="OS_Thunder_Strong_03" ID="{E07D65D6-E227-4ED0-A037-3884224ED7E7}" ShortID="312350436">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="OS_Thunder_Strong_03" ID="{6418C299-C3FE-4326-AD3C-057531F291DF}">
-															<Language>SFX</Language>
-															<AudioFile>OS_Thunder_Strong_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="188328337"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="OS_Thunder_Strong_03" ID="{6418C299-C3FE-4326-AD3C-057531F291DF}" Platform="Linked"/>
+														<ActiveSource Name="LP_Wind_Outdoor_01" ID="{07ABC3ED-FDF2-4BD2-8353-5158B9BA56EE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-										</RandomSequenceContainer>
-										<Sound Name="LP_Rain_strong_01" ID="{A4F91212-C25E-4C26-BFCD-F37F63B5CE16}" ShortID="483966115">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="LP_Rain_strong_01" ID="{91DC80F5-AB88-4799-8030-DF6E84A8FCC7}">
-													<Language>SFX</Language>
-													<AudioFile>LP_Rain_strong_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1072786912"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="LP_Rain_strong_01" ID="{91DC80F5-AB88-4799-8030-DF6E84A8FCC7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="LP_Wind_Outdoor_01" ID="{925162DB-91C2-4B15-9A8C-97A5C3FA3676}" ShortID="716572319">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="LP_Wind_Outdoor_01" ID="{07ABC3ED-FDF2-4BD2-8353-5158B9BA56EE}">
-													<Language>SFX</Language>
-													<AudioFile>LP_Wind_Outdoor_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="487698499"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="LP_Wind_Outdoor_01" ID="{07ABC3ED-FDF2-4BD2-8353-5158B9BA56EE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+											<BlendTrackList>
+												<BlendTrack Name="Weather" ID="{FBBF8E89-6687-4868-B7C6-FD4D3EE410F2}" ShortID="883534949">
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="LP_Rain_strong_01" ID="{A4F91212-C25E-4C26-BFCD-F37F63B5CE16}"/>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="LP_Wind_Outdoor_01" ID="{925162DB-91C2-4B15-9A8C-97A5C3FA3676}"/>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Thunder" ID="{1F6CAF39-8E32-4371-B1FC-E6B1B89C1BFF}"/>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
 									</ChildrenList>
-									<BlendTrackList>
-										<BlendTrack Name="Weather" ID="{FBBF8E89-6687-4868-B7C6-FD4D3EE410F2}" ShortID="883534949">
-											<BlendTrackAssocList>
-												<BlendTrackAssoc>
-													<ItemRef Name="LP_Rain_strong_01" ID="{A4F91212-C25E-4C26-BFCD-F37F63B5CE16}"/>
-												</BlendTrackAssoc>
-												<BlendTrackAssoc>
-													<ItemRef Name="LP_Wind_Outdoor_01" ID="{925162DB-91C2-4B15-9A8C-97A5C3FA3676}"/>
-												</BlendTrackAssoc>
-												<BlendTrackAssoc>
-													<ItemRef Name="Thunder" ID="{1F6CAF39-8E32-4371-B1FC-E6B1B89C1BFF}"/>
-												</BlendTrackAssoc>
-											</BlendTrackAssocList>
-										</BlendTrack>
-									</BlendTrackList>
-								</BlendContainer>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Indoor" ID="{DCD42310-168E-4482-9F14-786F9DF4FF77}" ShortID="532283009">
@@ -4496,16 +4593,6 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<ActorMixer Name="New Actor-Mixer" ID="{4C028725-9A3B-4DBB-955B-4E9908C7909C}" ShortID="41740336">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5F5726C8-05E1-4619-89F8-6C1830458A29}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{01F0CDBE-D97D-45E0-B12E-385284FE8E00}"/>
-						</Reference>
-					</ReferenceList>
-				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
