@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{58D3FCB6-A2A9-4F7B-A9C9-AC13FDD3B165}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{58D3FCB6-A2A9-4F7B-A9C9-AC13FDD3B165}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{58D3FCB6-A2A9-4F7B-A9C9-AC13FDD3B165}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Global" ID="{AEFCFA27-77AB-4BA1-BB3B-71FBB6133633}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Tension_Music" ID="{89030BA0-806A-48D2-B6B8-A267DD6CFD49}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Mental_Health" ID="{8165BE59-307F-404E-813A-41D674F2F655}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Wood" ID="{C1EB4057-AF93-418F-9E62-76F403124C70}"/>
+						<CurrentStateRef Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}"/>
+						<CurrentStateRef Name="Etage" ID="{6C6A75FD-6FF3-4399-951B-507CD09E3CB8}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

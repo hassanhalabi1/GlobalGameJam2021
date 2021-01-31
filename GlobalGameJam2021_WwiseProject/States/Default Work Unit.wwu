@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5FDEAB74-F8DF-479D-9B0A-0A5F71B4064C}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{5FDEAB74-F8DF-479D-9B0A-0A5F71B4064C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5FDEAB74-F8DF-479D-9B0A-0A5F71B4064C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Textures" ID="{1851688C-DD95-43A8-AF06-33D37807453A}">
+					<ChildrenList>
+						<State Name="None" ID="{AB22C8DA-91BE-4720-A11C-BFCBA1A95328}"/>
+						<State Name="Wood" ID="{C1EB4057-AF93-418F-9E62-76F403124C70}"/>
+						<State Name="Marble" ID="{608BD2DC-F228-42B8-95B0-132066B6F6B1}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="RUN_WALK" ID="{909AA460-744A-45DC-A0BB-9CD672ED7F61}">
+					<ChildrenList>
+						<State Name="None" ID="{EDA0EC73-B076-4077-8FF6-F783557828E0}"/>
+						<State Name="Run" ID="{1375B908-C36D-4720-9E11-2133C6795298}"/>
+						<State Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Floor" ID="{F11686F1-F048-46FC-95B9-6F07E8D71472}">
+					<ChildrenList>
+						<State Name="None" ID="{5C5E1325-5510-4882-8570-FF5BA767B370}"/>
+						<State Name="RDC" ID="{E29093A8-BBB1-4F4F-BC19-D17C4420CB3E}"/>
+						<State Name="Etage" ID="{6C6A75FD-6FF3-4399-951B-507CD09E3CB8}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="RDC" ID="{E29093A8-BBB1-4F4F-BC19-D17C4420CB3E}"/>
+							<EndState Name="Etage" ID="{6C6A75FD-6FF3-4399-951B-507CD09E3CB8}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

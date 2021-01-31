@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Mental_Health" ID="{8165BE59-307F-404E-813A-41D674F2F655}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
