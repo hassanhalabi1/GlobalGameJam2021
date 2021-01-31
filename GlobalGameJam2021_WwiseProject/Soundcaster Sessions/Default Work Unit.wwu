@@ -117,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MentalHealth_Status" ID="{858EAC36-E8DF-4858-9EC6-9BF89457D164}"/>
-							<Value>100</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}"/>
