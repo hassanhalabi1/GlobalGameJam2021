@@ -2506,7 +2506,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>50</XPos>
+														<XPos>100</XPos>
 														<YPos>16.58608</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2534,7 +2534,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>50</XPos>
+														<XPos>100</XPos>
 														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2650,7 +2650,7 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>50</XPos>
+														<XPos>100</XPos>
 														<YPos>-200</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -2962,7 +2962,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>100</XPos>
 																<YPos>13.06425</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -2990,7 +2990,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>100</XPos>
 																<YPos>-200</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3303,7 +3303,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>100</XPos>
 																<YPos>15.89083</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -3331,7 +3331,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>100</XPos>
 																<YPos>-200</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -4382,7 +4382,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>50</XPos>
+																<XPos>100</XPos>
 																<YPos>-200</YPos>
 																<Flags>37</Flags>
 															</Point>
