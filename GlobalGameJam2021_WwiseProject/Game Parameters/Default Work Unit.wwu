@@ -4,7 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{16E5FFAF-4439-4A54-96A4-BF0D22118472}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}"/>
-				<GameParameter Name="Monster_Distance" ID="{F7B1EF70-8700-4487-994B-266C73967A15}"/>
+				<GameParameter Name="Monster_Distance" ID="{F7B1EF70-8700-4487-994B-266C73967A15}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="3000"/>
+						<Property Name="Max" Type="Real64" Value="3000"/>
+					</PropertyList>
+				</GameParameter>
 				<GameParameter Name="MentalHealth_Status" ID="{858EAC36-E8DF-4858-9EC6-9BF89457D164}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="100"/>
@@ -16,6 +21,7 @@
 						<Property Name="Max" Type="Real64" Value="20"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Distance_Reverb" ID="{337B51C7-B0EF-4B32-AFBD-02DEC51687CD}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -417,6 +417,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PickUp_RND" ID="{78CF7244-AADA-4B9B-8296-A9BD07BD0C10}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{00E9D92E-5D6B-482E-85DF-0844D0FEE1D8}" ShortID="938788466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickUp_RND" ID="{A3A86F32-566C-4F2C-9CD9-C53B220BF5E9}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Start_Sentence_SFX_01" ID="{298EC73C-40B1-4C22-9E9F-9D3B9DC2A2E7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{2E940DFF-C768-497F-85F3-6CB7AAD00911}" ShortID="701386781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start_Sentence_SFX" ID="{43302544-8939-4AC4-AC3A-51C068E6646C}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stamina_RND" ID="{4AF74380-EDE0-4D08-9549-3D31E8196572}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4EDBB06D-66BF-4B16-9CA0-A2265AA9D518}" ShortID="229216682">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stamina_RND" ID="{E5D71E18-6FDD-49E2-93E6-47EB1B7F3B32}" WorkUnitID="{A6340BF4-D987-47FD-AC74-40D5255AC1F2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
