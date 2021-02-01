@@ -26,6 +26,10 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_PickUp_RND" ID="{78CF7244-AADA-4B9B-8296-A9BD07BD0C10}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_PlayMenu" ID="{E386F373-9A12-4938-B165-FEA1AEDB7924}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -105,11 +109,15 @@
 							<ObjectRef Name="Play_MentalHealth_BLD" ID="{951946D1-B5DF-41DF-9545-225E92983E4C}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
 							<Position X="5" Y="4"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Stamina_RND" ID="{4AF74380-EDE0-4D08-9549-3D31E8196572}" WorkUnitID="{D2FC064A-17C7-42FC-9A0E-F16C5C8C4DC5}"/>
+							<Position X="5" Y="5"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Monster_Distance" ID="{F7B1EF70-8700-4487-994B-266C73967A15}"/>
-							<Value>50</Value>
+							<Value>3000</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance_window" ID="{3F7D9E9D-B1EF-4801-835D-37E40A29AD2A}"/>
@@ -117,10 +125,14 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="MentalHealth_Status" ID="{858EAC36-E8DF-4858-9EC6-9BF89457D164}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Distance" ID="{F260A097-C6A3-4AD8-8342-E68DC791C60C}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Distance_Reverb" ID="{337B51C7-B0EF-4B32-AFBD-02DEC51687CD}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
