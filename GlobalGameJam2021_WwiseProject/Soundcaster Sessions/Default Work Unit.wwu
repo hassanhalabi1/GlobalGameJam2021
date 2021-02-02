@@ -137,8 +137,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{AB22C8DA-91BE-4720-A11C-BFCBA1A95328}"/>
-						<CurrentStateRef Name="None" ID="{EDA0EC73-B076-4077-8FF6-F783557828E0}"/>
+						<CurrentStateRef Name="Wood" ID="{C1EB4057-AF93-418F-9E62-76F403124C70}"/>
+						<CurrentStateRef Name="Walk" ID="{4E8625F5-E5E0-4678-921E-C58E496109ED}"/>
 						<CurrentStateRef Name="None" ID="{5C5E1325-5510-4882-8570-FF5BA767B370}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
